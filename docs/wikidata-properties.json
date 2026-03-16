@@ -1,0 +1,11 @@
+{
+  "description": "Properties to add when creating the Taiko blockchain Q-entity on Wikidata. Human must create the item at https://www.wikidata.org/wiki/Special:NewItem",
+  "properties_to_add": [
+    "P31 (instance of): Q20826013 (blockchain)",
+    "P856 (official website): https://taiko.xyz",
+    "P1324 (source code repository): https://github.com/taikoxyz",
+    "P571 (inception): 2022",
+    "P17 (country): Singapore",
+    "P178 (developer): Taiko Labs"
+  ]
+}

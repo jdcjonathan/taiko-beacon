@@ -1,0 +1,47 @@
+{
+  "name": "taiko",
+  "displayName": "Taiko Blockchain",
+  "description": "MCP server for the Taiko L2 blockchain. Enables AI agents to query chain state, interact with the ERC-8004 agent registry, execute swaps, check balances, and settle x402 micropayments.",
+  "version": "1.0.0",
+  "author": "Taiko Labs",
+  "homepage": "https://taiko.xyz",
+  "repository": "https://github.com/taikoxyz/taiko-beacon",
+  "license": "MIT",
+  "categories": ["blockchain", "web3", "ai-agents"],
+  "tools": [
+    {
+      "name": "get_balance",
+      "description": "Get ETH or ERC-20 token balance for a wallet address on Taiko mainnet"
+    },
+    {
+      "name": "get_gas_price",
+      "description": "Get current gas price on Taiko mainnet in gwei"
+    },
+    {
+      "name": "get_agent_registry",
+      "description": "Query the ERC-8004 agent registry — list all registered agents with their capabilities and endpoints"
+    },
+    {
+      "name": "get_agent",
+      "description": "Get details for a specific ERC-8004 registered agent by address or name"
+    },
+    {
+      "name": "get_tvl",
+      "description": "Get total value locked (TVL) across Taiko DeFi protocols"
+    },
+    {
+      "name": "get_transaction",
+      "description": "Get details for a transaction hash on Taiko mainnet"
+    },
+    {
+      "name": "prepare_swap",
+      "description": "Prepare a token swap on Taiko — returns unsigned transaction for client-side signing"
+    },
+    {
+      "name": "prepare_x402_payment",
+      "description": "Prepare an x402 micropayment to an agent — returns unsigned transaction for client-side signing"
+    }
+  ],
+  "rpc": "https://rpc.mainnet.taiko.xyz",
+  "chainId": 167000
+}

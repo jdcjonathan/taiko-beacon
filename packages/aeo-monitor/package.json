@@ -1,0 +1,12 @@
+{
+  "name": "aeo-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AEO citation monitor and dashboard",
+  "scripts": {
+    "build": "echo 'aeo-monitor build'",
+    "test": "node -e \"require('fs'); JSON.parse(require('fs').readFileSync('prompts.json','utf8'))\"",
+    "lint": "echo 'lint ok'",
+    "monitor": "python monitor.py"
+  }
+}

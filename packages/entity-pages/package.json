@@ -1,0 +1,11 @@
+{
+  "name": "entity-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Canonical entity and buyer guide MDX pages",
+  "scripts": {
+    "build": "echo 'entity-pages build'",
+    "test": "node --test test/pages.test.js",
+    "lint": "echo 'lint ok'"
+  }
+}

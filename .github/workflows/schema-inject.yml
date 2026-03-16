@@ -1,0 +1,22 @@
+name: Schema inject
+on:
+  workflow_dispatch:
+  # When docs.taiko.xyz deploy is triggered, run schema injector and publish modified HTML
+  # Configure repository_dispatch or manual trigger as needed for taiko.xyz infra.
+
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter schema-injector run build
+      # - run: pnpm --filter schema-injector run inject
+      # Publish step: wire to taiko.xyz deploy (e.g. upload artifact or push to branch)

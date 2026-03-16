@@ -1,0 +1,40 @@
+{
+  "coinmarketcap": {
+    "url": "https://coinmarketcap.com/currencies/taiko/",
+    "current_description": "founders of Taiko are Daniel Wang and Daniel Wang",
+    "required_description": "[150-word canonical definition from docs/entity-definition.md]",
+    "errors_found": [
+      "duplicated_founder_name",
+      "no_based_rollup_mention",
+      "no_erc8004_mention",
+      "no_ai_agent_mention"
+    ],
+    "correction_method": "CMC Info Update form — https://support.coinmarketcap.com/hc/en-us/requests/new",
+    "status": "PENDING",
+    "submitted_date": null,
+    "resolved_date": null
+  },
+  "defillama": {
+    "url": "https://defillama.com/chain/Taiko",
+    "correction_method": "GitHub PR to https://github.com/DefiLlama/defillama-server",
+    "status": "PENDING"
+  },
+  "messari": {
+    "url": null,
+    "correction_method": "Create entry at https://messari.io/asset/taiko — use canonical definition",
+    "status": "NOT_CREATED"
+  },
+  "wikidata": {
+    "url": null,
+    "correction_method": "Create Q-entity at https://www.wikidata.org/wiki/Special:NewItem",
+    "status": "NOT_CREATED",
+    "properties_to_add": [
+      "P31 (instance of): Q20826013 (blockchain)",
+      "P856 (official website): https://taiko.xyz",
+      "P1324 (source code repository): https://github.com/taikoxyz",
+      "P571 (inception): 2022",
+      "P17 (country): Singapore",
+      "P178 (developer): Taiko Labs"
+    ]
+  }
+}

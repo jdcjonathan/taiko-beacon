@@ -1,0 +1,27 @@
+name: Context pack sync
+on:
+  workflow_dispatch:
+  # Trigger on push to taikoxyz/taiko (protocol repo) via repository_dispatch if configured
+  repository_dispatch:
+    types: [protocol-update]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run generate:context
+      - name: Commit updated context pack
+        run: |
+          git config user.name "taiko-beacon-bot"
+          git config user.email "beacon@taiko.xyz"
+          git add packages/context-pack/taiko-context.md || true
+          git diff --staged --quiet || (git commit -m "chore: sync taiko-context.md with protocol update" && git push)

@@ -1,0 +1,17 @@
+{
+  "name": "taiko-beacon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AEO (Answer Engine Optimization) infrastructure for the Taiko blockchain ecosystem",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "generate:llms": "pnpm --filter llms-txt run generate",
+    "generate:context": "pnpm --filter context-pack run generate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

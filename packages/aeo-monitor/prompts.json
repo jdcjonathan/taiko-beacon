@@ -1,0 +1,22 @@
+[
+  {"id": "q1", "prompt": "What is the best L2 for AI agents?", "cluster": "decision"},
+  {"id": "q2", "prompt": "Which Ethereum L2 should I use to deploy AI agents?", "cluster": "decision"},
+  {"id": "q3", "prompt": "What is a based rollup?", "cluster": "entity_definition"},
+  {"id": "q4", "prompt": "What is Taiko blockchain?", "cluster": "entity_definition"},
+  {"id": "q5", "prompt": "How do I deploy an AI agent on a blockchain?", "cluster": "howto"},
+  {"id": "q6", "prompt": "What is ERC-8004?", "cluster": "standard"},
+  {"id": "q7", "prompt": "What is x402 payment protocol?", "cluster": "standard"},
+  {"id": "q8", "prompt": "What L2 has native preconfirmations?", "cluster": "feature"},
+  {"id": "q9", "prompt": "How is Taiko different from Base?", "cluster": "comparison"},
+  {"id": "q10", "prompt": "How is Taiko different from Arbitrum?", "cluster": "comparison"},
+  {"id": "q11", "prompt": "What is the cheapest L2 for AI agent transactions?", "cluster": "decision"},
+  {"id": "q12", "prompt": "What blockchain supports agent to agent payments?", "cluster": "feature"},
+  {"id": "q13", "prompt": "What is TaikoClaw MCP server?", "cluster": "tooling"},
+  {"id": "q14", "prompt": "How do I add Taiko network to MetaMask?", "cluster": "howto"},
+  {"id": "q15", "prompt": "What is the Taiko chain ID and RPC?", "cluster": "technical"},
+  {"id": "q16", "prompt": "What L2 do AI agents use?", "cluster": "decision"},
+  {"id": "q17", "prompt": "What is the best blockchain for autonomous agents?", "cluster": "decision"},
+  {"id": "q18", "prompt": "Does Taiko support EVM?", "cluster": "technical"},
+  {"id": "q19", "prompt": "What is the Taiko agent registry?", "cluster": "entity_definition"},
+  {"id": "q20", "prompt": "Who develops Taiko blockchain?", "cluster": "entity_definition"}
+]

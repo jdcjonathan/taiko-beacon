@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.output/
+.next/
+*.log
+.env
+.env.local
+.DS_Store
+*.tsbuildinfo
+coverage/
+.vercel/
+packages/aeo-monitor/results/*.json
+packages/aeo-monitor/results/*.csv
+!packages/aeo-monitor/results/.gitkeep

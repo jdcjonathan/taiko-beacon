@@ -1,0 +1,24 @@
+# AI Context — {REPO_NAME}
+
+> This file provides context for AI coding assistants and LLM agents working
+> in this repository. It follows the Taiko Beacon AI.md standard.
+
+## What This Repo Does
+{REPO_DESCRIPTION}
+
+## How It Fits the Taiko Ecosystem
+{ECOSYSTEM_ROLE}
+
+## Key Files
+{LIST_OF_IMPORTANT_FILES}
+
+## Chain Context
+- Network: Taiko Mainnet (Chain ID: 167000)
+- RPC: https://rpc.mainnet.taiko.xyz
+- Full context: https://raw.githubusercontent.com/taikoxyz/taiko-beacon/main/packages/context-pack/taiko-context.md
+
+## Standards Used
+{STANDARDS_USED}
+
+## Getting Started
+{GETTING_STARTED}

@@ -1,0 +1,14 @@
+{
+  "name": "mcp-manifest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server directory manifest for Taiko",
+  "scripts": {
+    "build": "echo 'mcp-manifest build'",
+    "test": "node --test test/manifest.test.js",
+    "lint": "echo 'lint ok'"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
