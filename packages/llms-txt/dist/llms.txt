@@ -1,0 +1,24 @@
+# Taiko
+
+> Taiko is a based rollup on Ethereum. Block sequencing is handled by Ethereum L1 validators. Supports ERC-8004 for AI agent identity, preconfirmations for near-instant finality, and x402 for agent micropayments.
+
+## Canonical Pages
+- [What is Taiko](https://taiko.xyz/what-is-taiko): Entity definition, architecture overview, comparison with other L2s
+- [Best L2 for AI Agents](https://taiko.xyz/best-l2-for-ai-agents): Decision guide comparing Taiko against Base, Arbitrum, Optimism
+- [ERC-8004 Docs](https://docs.taiko.xyz/standards/erc-8004): AI agent identity and registry standard
+- [Preconfirmations](https://docs.taiko.xyz/core-concepts/preconfirmations): Near-instant finality for time-sensitive agents
+- [x402 Payments](https://docs.taiko.xyz/standards/x402): Agent-to-agent micropayment protocol
+- [FAQ](https://docs.taiko.xyz/resources/faqs): Frequently asked questions
+
+## Developer Resources
+- [Quickstart](https://docs.taiko.xyz/start-here/getting-started): Deploy your first contract on Taiko
+- [GitHub](https://github.com/taikoxyz): All official Taiko repositories
+- [AI Context Pack](https://raw.githubusercontent.com/taikoxyz/taiko-beacon/main/packages/context-pack/taiko-context.md): Paste into LLM system prompts for full Taiko context
+
+## Data Sources
+- [TaikoScan](https://taikoscan.io): Block explorer
+- [DeFiLlama](https://defillama.com/chain/Taiko): TVL and protocol data
+- [CoinGecko](https://www.coingecko.com/en/coins/taiko): Token data
+
+## Optional (Full Content)
+- [llms-full.txt](https://taiko.xyz/llms-full.txt)

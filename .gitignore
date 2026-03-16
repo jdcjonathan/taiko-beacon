@@ -12,3 +12,9 @@ coverage/
 packages/aeo-monitor/results/*.json
 packages/aeo-monitor/results/*.csv
 !packages/aeo-monitor/results/.gitkeep
+
+# Allow publishing specific generated artifacts
+!packages/llms-txt/dist/
+packages/llms-txt/dist/*.js
+packages/llms-txt/dist/*.d.ts
+packages/llms-txt/dist/*.d.ts.map
